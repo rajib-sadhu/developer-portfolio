@@ -86,6 +86,7 @@ main{
     text-align: center;
 }
 .section_title{
+    text-align: center;
     margin-bottom: 30px;
     font-size: 35px;
     font-weight: 700;
@@ -112,4 +113,40 @@ main{
     font-weight: 700;
     font-size: 20px;
     color: #474747;
+}
+
+/* What I do Styles */
+.what_i_do{
+    margin-top: 130px;
+    border-radius: 10px;
+    padding: 50px;
+    /* text-align: center; */
+}
+
+.skills_div{
+    display: flex;
+    gap: 24px;
+    margin-top: 100px;
+    /* background-color: antiquewhite; */
+}
+.skill{
+    background-color: #ffffff;
+    box-shadow: 0 6px 50px rgba(0, 0, 0, .06);
+    border-radius: 5px;
+    padding: 30px;
+}
+.skill_title{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill_desc{
+    color: #757575;
+}
+
+/* Resume Style */
+
+.resume{
+    display: flex;
 }

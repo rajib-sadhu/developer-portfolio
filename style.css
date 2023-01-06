@@ -68,6 +68,9 @@ nav ul li{
     font-size: 18px;
     margin-bottom: 30px;
 }
+.banner img{
+    margin-right: -150px;
+}
 
 
 /* main */
@@ -146,7 +149,11 @@ main{
 /* Resume Style */
 
 .resume{
+    margin-top: 100px;
     margin-bottom: 100px;
+}
+.resume .section_title{
+    margin-bottom: 150px;
 }
 .resume_content{
     display: flex;
@@ -189,8 +196,8 @@ main{
     display: flex;
     gap: 170px;
     background-color: #FFF8F3;
-    padding: 120px 100px;
-    margin: 0 200px;
+    padding: 120px 200px;
+    /* margin: 0 200px; */
 }
 
 .contact .section_title{

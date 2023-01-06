@@ -102,9 +102,7 @@ main{
     display: flex;
     justify-content: space-around;
 }
-.about_info .info{
 
-}
 .about_info .info_title{
     font-size: 20px;
     color: #757575;
@@ -148,5 +146,73 @@ main{
 /* Resume Style */
 
 .resume{
-    display: flex;
+    margin-bottom: 100px;
 }
+.resume_content{
+    display: flex;
+    gap: 24px;
+}
+
+.resume_content .resume_title h3{
+    font-size: 30px;
+}
+
+.resume_content .resume_items{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume_items h4{
+    font-weight: 700;
+    font-size: 22px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.resume_items h5{
+    color: #757575;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.resume p{
+    color: #757575;
+}
+
+.resume_btn{
+    margin-top: 50px;
+   text-align: center;
+}
+
+
+/* contact style */
+
+.contact{
+    display: flex;
+    gap: 170px;
+    background-color: #FFF8F3;
+    padding: 120px 100px;
+    margin: 0 200px;
+}
+
+.contact .section_title{
+    text-align: left;
+}
+
+.contact form input[type='text'], input[type="email"],textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+.contact a{
+    text-decoration: none;
+}
+
+.connect p{
+    margin-bottom: 30PX;
+}
+
+.icons a{
+    margin-right: 10px;
+}
+
